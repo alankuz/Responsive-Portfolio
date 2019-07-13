@@ -1,0 +1,792 @@
+/* Navbar */
+.nav {
+    overflow: hidden;
+    background-color: #333;
+    clear: both;    
+      }
+    #nav2 {
+        max-width: 960px;
+        margin: auto;
+    }
+    header h1 {
+        line-height: 75px;
+        font-size: 1.5rem;
+        margin: 0;
+        display:inline;
+        background-color: #4aaaa5;
+        background-size: 200px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        color: #ffffff;
+        width: 300px;
+        text-align: center;        
+      }
+      .nav a {
+        float: right;
+        color: #ffffff;
+        text-align: center;
+        padding: 25px 10px;
+        text-decoration: none;
+        font-size: 17px;
+        
+      }
+      .nav a:active {
+          color: black;
+        }
+        .nav a:hover {
+            background-color: #ff42;  
+        }
+      .nav h1 {
+        float: left;
+    }
+
+
+/* body */
+#body{
+    margin: auto; 
+    max-width: 960px;
+    background-color: #ffffff;
+    margin-top: 2%;
+    line-height: 2;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding-bottom:30px;
+    margin-bottom: 30px;
+  }
+    #body::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    #alan {
+        float:left;
+        height: 150px;
+        width: 150px;
+        padding: 1.7% 20px 0px 30px; 
+    }
+    #About {
+    padding: 30px 0px 0px 30px;
+    line-height: 1;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    }
+    p {
+    padding-left: 30px;
+    }
+    body {
+    background-color: gray;
+    margin-top: 0px;
+    margin: 0%;
+    }
+
+
+/* footer */
+#footer{
+    position: relative;
+    bottom:0;
+    width:100%;
+    height:50px;   
+    background-color: black;
+    border-top: #6cf solid 10px;
+    color: red;
+    text-align: center;
+    
+    }
+    #copyright {
+        position: relative;
+        top: 40%;
+        }
+
+
+/* contact page */
+input[type=text], select, textarea {
+    width: 920px; 
+    padding: 12px;   
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    resize: vertical;
+    margin: 6px 0px 16px 20px;
+}
+label {
+padding-left: 20px;
+}
+input[type=submit] {
+    background-color: green;
+    font-size: 32px;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-left: 20px;
+}
+
+
+/* Portfolio */
+.pimages {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    }
+.pimages2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    object-fit: cover;
+    }
+.pimages3 {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    object-fit: cover;
+    }
+.pimages4 {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    object-fit: cover;
+   }
+.pimages5 {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    object-fit: cover;
+  }
+
+  
+  /* Text in the imgs */
+  .centered {
+    position: absolute;
+    top: 75%;   
+    left: 50%; 
+     transform: translate(-50%, -50%);
+     width: 300px;
+     background-color: #6cf;
+     height: 50px;
+     padding-top: 10px;
+     margin: 10px 10px 10px 8px;
+  }
+  /* container for imgs and text boxes */
+ .container
+ {
+     max-width: 800px;
+     height: 1000px;
+     overflow: hidden;
+  }
+ .container img {
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    padding: 10px 10px 10px 25px;
+  }
+  .container::after {
+    content: "";
+    display: block;
+    clear: both;
+    }
+
+
+
+
+    @media screen and (max-width: 980px) {
+
+.nav {
+    overflow: hidden;
+    background-color: #333;
+    clear: both;    
+      }
+    #nav2 {
+        max-width: 720px;
+        margin: auto;
+    }
+    header h1 {
+        line-height: 75px;
+        font-size: 1.5rem;
+        margin: 0;
+        display:inline;
+        background-color: #4aaaa5;
+        background-size: 200px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        color: #ffffff;
+        width: 300px;
+        text-align: center;        
+      }
+      .nav a {
+        float: right;
+        color: #ffffff;
+        text-align: center;
+        padding: 25px 10px;
+        text-decoration: none;
+        font-size: 17px;
+        
+      }
+      .nav a:active {
+          color: black;
+        }
+        .nav a:hover {
+            background-color: #ff42;  
+        }
+      .nav h1 {
+        float: left;
+    }
+
+
+/* body */
+#body{
+    margin: auto; 
+    max-width: 720px;
+    background-color: #ffffff;
+    margin-top: 2%;
+    line-height: 2;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding-bottom:30px;
+    margin-bottom: 30px;
+  }
+    #body::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    #alan {
+        float:left;
+        height: 150px;
+        width: 150px;
+        padding: 1.7% 20px 0px 30px; 
+    }
+    #About {
+    padding: 30px 0px 0px 30px;
+    line-height: 1;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    }
+    p {
+    padding-left: 30px;
+    }
+    body {
+    background-color: gray;
+    margin-top: 0px;
+    margin: 0%;
+    }
+
+
+/* footer */
+#footer{
+    position: relative;
+    bottom:0;
+    width:100%;
+    height:50px;   
+    background-color: black;
+    border-top: #6cf solid 10px;
+    color: red;
+    text-align: center;
+    
+    }
+    #copyright {
+        position: relative;
+        top: 40%;
+        }
+
+
+/* contact page */
+input[type=text], select, textarea {
+    width: 680px; 
+    padding: 12px;   
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    resize: vertical;
+    margin: 6px 0px 16px 20px;
+}
+label {
+padding-left: 20px;
+}
+input[type=submit] {
+    background-color: green;
+    font-size: 32px;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-left: 20px;
+}
+
+
+/* Portfolio */
+.pimages {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    }
+.pimages2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    object-fit: cover;
+    }
+.pimages3 {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    object-fit: cover;
+    }
+.pimages4 {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    object-fit: cover;
+   }
+.pimages5 {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    object-fit: cover;
+  }
+
+  
+  /* Text in the imgs */
+  .centered {
+    position: absolute;
+    top: 75%;   
+    left: 50%; 
+     transform: translate(-50%, -50%);
+     width: 300px;
+     background-color: #6cf;
+     height: 50px;
+     padding-top: 10px;
+     margin: 10px 10px 10px 8px;
+  }
+  /* container for imgs and text boxes */
+ .container
+ {
+     max-width: 800px;
+     height: 1000px;
+     overflow: hidden;
+  }
+ .container img {
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    padding: 10px 10px 10px 25px;
+  }
+  .container::after {
+    content: "";
+    display: block;
+    clear: both;
+    }
+}
+    @media screen and (max-width: 768px) {
+
+.nav {
+    overflow: hidden;
+    background-color: #333;
+    clear: both;    
+      }
+    #nav2 {
+        max-width: 620px;
+        margin: auto;
+    }
+    header h1 {
+        line-height: 75px;
+        font-size: 1.5rem;
+        margin: 0;
+        display:inline;
+        background-color: #4aaaa5;
+        background-size: 200px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        color: #ffffff;
+        width: 300px;
+        text-align: center;        
+      }
+      .nav a {
+        float: right;
+        color: #ffffff;
+        text-align: center;
+        padding: 25px 10px;
+        text-decoration: none;
+        font-size: 17px;
+        
+      }
+      .nav a:active {
+          color: black;
+        }
+        .nav a:hover {
+            background-color: #ff42;  
+        }
+      .nav h1 {
+        float: left;
+    }
+
+
+/* body */
+#body{
+    margin: auto; 
+    max-width: 620px;
+    background-color: #ffffff;
+    margin-top: 2%;
+    line-height: 2;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding-bottom:30px;
+    margin-bottom: 30px;
+  }
+    #body::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    #alan {
+        float:left;
+        height: 150px;
+        width: 150px;
+        padding: 1.7% 20px 0px 30px; 
+    }
+    #About {
+    padding: 30px 0px 0px 30px;
+    line-height: 1;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    }
+    p {
+    padding-left: 30px;
+    }
+    body {
+    background-color: gray;
+    margin-top: 0px;
+    margin: 0%;
+    }
+
+
+/* footer */
+#footer{
+    position: relative;
+    bottom:0;
+    width:100%;
+    height:50px;   
+    background-color: black;
+    border-top: #6cf solid 10px;
+    color: red;
+    text-align: center;
+    
+    }
+    #copyright {
+        position: relative;
+        top: 40%;
+        }
+
+
+/* contact page */
+input[type=text], select, textarea {
+    width: 580px; 
+    padding: 12px;   
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    resize: vertical;
+    margin: 6px 0px 16px 20px;
+}
+label {
+padding-left: 20px;
+}
+input[type=submit] {
+    background-color: green;
+    font-size: 32px;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-left: 20px;
+}
+
+
+/* Portfolio */
+img.container {
+    width: 150px;
+    height: 150px;
+
+}
+.pimages {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    }
+.pimages2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    object-fit: cover;
+    }
+.pimages3 {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    object-fit: cover;
+    }
+.pimages4 {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    object-fit: cover;
+   }
+.pimages5 {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    object-fit: cover;
+  }
+
+  
+  /* Text in the imgs */
+  .centered {
+    position: absolute;
+    top: 75%;   
+    left: 50%; 
+     transform: translate(-50%, -50%);
+     width: 250px;
+     background-color: #6cf;
+     height: 50px;
+     padding-top: 10px;
+     margin: 10px 10px 10px 8px;
+  }
+  /* container for imgs and text boxes */
+ .container
+ {
+     max-width: 800px;
+     height: 900px;
+     overflow: hidden;
+  }
+ .container img {
+    width: 250px;
+    height: 250px;
+    object-fit: fill;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    padding: 10px 10px 10px 25px;
+  }
+  .container::after {
+    content: "";
+    display: block;
+    clear: both;
+    }
+}
+    @media screen and (max-width: 640px) {
+
+.nav {
+    overflow: hidden;
+    background-color: #333;
+    clear: both;    
+      }
+    #nav2 {
+        max-width: 600px;
+        margin: auto;
+    }
+    header h1 {
+        line-height: 75px;
+        font-size: 1.5rem;
+        margin: 0;
+        display:inline;
+        background-color: #4aaaa5;
+        background-size: 200px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        color: #ffffff;
+        width: 300px;
+        text-align: center;        
+      }
+      .nav a {
+        float: right;
+        color: #ffffff;
+        text-align: center;
+        padding: 25px 10px;
+        text-decoration: none;
+        font-size: 17px;
+        
+      }
+      .nav a:active {
+          color: black;
+        }
+        .nav a:hover {
+            background-color: #ff42;  
+        }
+      .nav h1 {
+        float: left;
+    }
+
+
+/* body */
+#body{
+    margin: auto; 
+    max-width: 600px;
+    background-color: #ffffff;
+    margin-top: 2%;
+    line-height: 2;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding-bottom:30px;
+    margin-bottom: 30px;
+  }
+    #body::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    #alan {
+        float:left;
+        height: 150px;
+        width: 150px;
+        padding: 1.7% 20px 0px 30px; 
+    }
+    #About {
+    padding: 30px 0px 0px 30px;
+    line-height: 1;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    }
+    p {
+    padding-left: 30px;
+    }
+    body {
+    background-color: gray;
+    margin-top: 0px;
+    margin: 0%;
+    }
+
+
+/* footer */
+#footer{
+    position: relative;
+    bottom:0;
+    width:100%;
+    height:50px;   
+    background-color: black;
+    border-top: #6cf solid 10px;
+    color: red;
+    text-align: center;
+    
+    }
+    #copyright {
+        position: relative;
+        top: 40%;
+        }
+
+
+/* contact page */
+input[type=text], select, textarea {
+    width: 550px; 
+    padding: 12px;   
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    resize: vertical;
+    margin: 6px 0px 16px 20px;
+}
+label {
+padding-left: 20px;
+}
+input[type=submit] {
+    background-color: green;
+    font-size: 32px;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-left: 20px;
+}
+
+
+/* Portfolio */
+img.container {
+    width: 150px;
+    height: 150px;
+
+}
+.pimages {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    }
+.pimages2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    object-fit: cover;
+    }
+.pimages3 {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    object-fit: cover;
+    }
+.pimages4 {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    object-fit: cover;
+   }
+.pimages5 {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    object-fit: cover;
+  }
+
+  
+  /* Text in the imgs */
+  .centered {
+    position: absolute;
+    top: 75%;   
+    left: 50%; 
+     transform: translate(-50%, -50%);
+     width: 400px;
+     background-color: #6cf;
+     height: 50px;
+     padding-top: 10px;
+     margin: 10px 10px 10px 39px;
+  }
+  /* container for imgs and text boxes */
+ .container
+ {
+     max-width: 800px;
+     height: 2200px;
+     overflow: hidden;
+  }
+ .container img {
+    width: 400px;
+    height: 400px;
+    object-fit: fill;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    padding: 10px 10px 10px 88px;
+  }
+  .container::after {
+    content: "";
+    display: block;
+    clear: both;
+    }
+}
