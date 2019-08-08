@@ -41,6 +41,13 @@
 
 
 /* body */
+#main {
+    position: relative;
+  min-height: 100vh;
+}
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
 #body{
     margin: auto; 
     max-width: 960px;
@@ -79,15 +86,16 @@
 
 
 /* footer */
-#footer{
-    position: relative;
-    bottom:0;
-    width:100%;
-    height:50px;   
-    background-color: black;
-    border-top: #6cf solid 10px;
-    color: red;
-    text-align: center;
+    #footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 2.5rem;            /* Footer height */
+         width:100%;
+        background-color: black;
+        border-top: #6cf solid 10px;
+        color: red;
+        text-align: center;
     
     }
     #copyright {
