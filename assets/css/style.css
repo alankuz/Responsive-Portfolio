@@ -163,7 +163,16 @@ input[type=submit] {
     text-align: center;
     color: white;
     float: left;
+    padding: 10px 10px 10px 10px;
     object-fit: cover;
+   }
+.pimages6 {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    object-fit: cover;
+    padding: 10px 10px 10px 10px;
   }
 
   
@@ -183,7 +192,7 @@ input[type=submit] {
  .container
  {
      max-width: 800px;
-     height: 1000px;
+     height: 90%;
      overflow: hidden;
   }
  .container img {
@@ -361,7 +370,16 @@ input[type=submit] {
     text-align: center;
     color: white;
     float: left;
+    padding: 10px 10px 10px 10px;
     object-fit: cover;
+   }
+.pimages6 {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    object-fit: cover;
+    padding: 10px 10px 10px 10px;
   }
 
   
@@ -561,7 +579,16 @@ img.container {
     text-align: center;
     color: white;
     float: left;
+    padding: 10px 10px 10px 10px;
     object-fit: cover;
+   }
+.pimages6 {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    object-fit: cover;
+    padding: 10px 10px 10px 10px;
   }
 
   
@@ -761,9 +788,17 @@ img.container {
     text-align: center;
     color: white;
     float: left;
+    padding: 10px 10px 10px 10px;
     object-fit: cover;
+   }
+.pimages6 {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    object-fit: cover;
+    padding: 10px 10px 10px 10px;
   }
-
   
   /* Text in the imgs */
   .centered {
@@ -781,7 +816,7 @@ img.container {
  .container
  {
      max-width: 800px;
-     height: 2200px;
+     height: 90%;
      overflow: hidden;
   }
  .container img {
@@ -961,7 +996,16 @@ img.container {
     text-align: center;
     color: white;
     float: left;
+    padding: 10px 10px 10px 10px;
     object-fit: cover;
+   }
+.pimages6 {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    object-fit: cover;
+    padding: 10px 10px 10px 10px;
   }
 
   
@@ -981,7 +1025,7 @@ img.container {
  .container
  {
      max-width: 800px;
-     height: 1800px;
+     height: 90%;
      overflow: hidden;
   }
  .container img {
