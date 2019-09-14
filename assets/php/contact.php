@@ -12,7 +12,7 @@
     $subject = 'Subject';
 
     $headers = "From: You company <".$to.">". "\r\n" .
-                  "Return-Path: You company <info@yousite.com>\r\n".
+                  "Return-Path: You company <contact@alankuzy.com>\r\n".
                   "Reply-To: You company <".$to.">" . "\r\n" .
                   "MIME-Version: 1.0\r\n".
                   "Content-type: text/html; charset=iso-8859-1\r\n".
