@@ -207,7 +207,7 @@ function initMap() {
     var beachMarker = new google.maps.Marker({
         position: {lat: 39.987686, lng: -82.970916},
         map: map,
-        title: 'UkieWeb',
+        title: 'Alan',
         icon: image
     });
 
